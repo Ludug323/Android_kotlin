@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FirstKotlinApp</string>
+    <string name="wishTxt">make a wish</string>
+    <string name="defaultToDO">Something</string>
+    <string name="pickBtn">Pick one !</string>
+    <string name="addBtn">Add</string>
+    <string name="noMorePlan">no more plan</string>
+</resources>

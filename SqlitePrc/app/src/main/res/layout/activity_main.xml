@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvBook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="55dp"
+        android:text="書名 :"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:text="價格 :"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="@+id/tvBook"
+        app:layout_constraintTop_toBottomOf="@+id/tvBook" />
+
+    <EditText
+        android:id="@+id/etBook"
+        android:layout_width="190dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="32dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/tvBook"
+        app:layout_constraintTop_toTopOf="@+id/tvBook"
+        tools:hint="輸入書名" />
+
+    <EditText
+        android:id="@+id/etPrice"
+        android:layout_width="190dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="32dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/tvPrice"
+        app:layout_constraintTop_toTopOf="@+id/tvPrice"
+        tools:hint="輸入價格" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

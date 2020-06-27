@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_list"
+        android:checkable="false"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:title="Item_list"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_staggered"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="Item_33"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_grid"
+        android:icon="@drawable/ic_menu"
+        android:title="Item_SVG"
+        app:showAsAction="always" />
+</menu>
